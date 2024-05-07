@@ -1,0 +1,13 @@
+.main{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   margin: 5rem;
+}
+button{
+    margin-top: 0.5rem;
+}
+ul{
+    padding-left: 1rem;
+}
