@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: hsl(0, 0%, 0%);
+    background-image: linear-gradient( 135deg, #98d9b2 10%, #342975 100%);
+    border-radius: 10px;
+}
+nav{
+    padding-top: 0.4rem;
+  font-size: 2.2rem;
+  height: 3.5rem;
+  text-align: center;
+  background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgb(11, 32, 5) 0.2%, rgba(0,0,0,1) 100.2% );
+  color: white;
+}
+.x{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+   width: 8rem;
+   height: 8rem;
+   border: 2px solid #11360c;
+   border-radius: 50%
+}
+.game_symbol{
+ display: flex;
+ justify-content: center; 
+ gap: 2rem;
+ align-items: center;
+}
+.winner{
+    margin-top: 3.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.score{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#your_score{
+    margin: -0.8rem;
+    font-size: 2.5rem;
+}
+#computer_score{
+    margin: -0.8rem;
+    font-size: 2.5rem;
+}
+.result{
+    margin-top: -1rem;
+    padding: 0.8rem;
+    border: 2px solid #090909;
+    font-size: 1.3rem;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    font-weight: 500;
+    background-color:#1a1541;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=0" />
+    <meta name=" title" content="N-Queens Maze" />>
+    <meta name="keywords"
+        content="NQueens, Board of NQueens, 8 queens, 8x8 board, problem-solving, computer science, game, puzzle, strategy, classic problem" />
+    <meta name="author" content="abhayprajapati" />
+
+    <!-- HTML Meta Tags -->
+    <title>Board Of NQueens Maze</title>
+    <meta name="description" content="An better way to solve n queens maze.">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://maze.abhayprajapati.me/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Board Of N👑 Maze">
+    <meta property="og:description" content="Solve N Queen Maze 👑">
+    <meta property="og:image" content="/screenshots/board.png">
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="maze.abhayprajapati.me">
+    <meta property="twitter:url" content="https://maze.abhayprajapati.me/">
+    <meta name="twitter:title" content="Board Of NQueens Maze">
+    <meta name="twitter:description" content="An better way to solve n queens maze.">
+    <meta name="twitter:image" content="/screenshots/board.png">
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="apple-touch-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <meta property="og:image" content="/screenshots/board.png" />
+    <title>Board Of NQueens Maze</title>
+</head>
+
+<body>
+    <div class="app">
+        <nav id="win-msg" style="display: none;">
+            Yahh! You won.
+        </nav>
+      
+        <h1 class="title-header">
+            Board Of N Queens
+        </h1>
+        <p class="title-desc">
+            A Simple Computer Science Problem
+        </p>
+        <div class="btns">
+            <button id="reset-btn" class="btn">
+                Reset
+            </button>
+        </div>
+        <div id="queens">
+            👑👑👑👑👑👑👑
+        </div>
+        <div id="board"></div>
+        <div>
+            <button data-btn="twit" id="makeATweetBTn">
+                Tweet
+            </button>
+        </div>
+        <div class="tutorial">
+            <h2>How to Play</h2>
+            <ol>
+                <li>You will be presented with a <u>8x8</u> maze board.</li>
+                <li>Your goal is to place <u>8 queens</u> on the board without any of them intersecting vertically,
+                    horizontally, or diagonally.</li>
+                <li>You cannot <u>place queens on red squares</u>.</li>
+                <li><u>Click</u> on a cells to <u>place a queen</u> on that location.</li>
+                <li>You can <u>remove</u> a placed queen by clicking on it again.</li>
+                <li>If you successfully place all 8 queens on the board, a <u>color shower will be displayed</u>.</li>
+                <li>You can reset the game at any time by clicking on the <u>"reset" button</u>.</li>
+            </ol>
+            <p>Good luck and have fun!</p>
+        </div>
+
+        <footer class="socials">
+            <p class="footer-line">
+                created with ❤️ by &nbsp;@ <a href="https://www.linkedin.com/in/hritik-kumar-maurya-8a443123b" style="color: rgb(24, 128, 180);" target="_blank"
+                    rel="noopener noreferrer"><u>hritik-kumar-maurya</u></a>
+            </p>
+            <p class="footer-line1">
+                <a href="https://github.com/theabhayprajapati/nqueens-board" target="_blank" rel="noopener noreferrer">
+                    <img src="./icons/github.svg" alt="github" />
+                </a>
+                <!-- twitter.com/abhayprajaapati -->
+                <a href="https://x.com/HRITIKKUMA38041" target="_blank" rel="noopener noreferrer">
+                    <img src="./icons/twitter.svg" alt="twitter" />
+                </a>
+            </p>
+            <div id="failureMessage" style="display:none; color:red;">
+                I can't place all 8 queens correctly as per the rule.
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 1%);
+    color: hwb(0 100% 0%);
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 100vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+}
+#txt{
+    font-size: 3rem;
+}
+input{
+    width: 20%;
+    margin: 0 auto;
+}
+button{
+    background: hsl(0, 6%, 7%);
+    border-radius: 10px;
+    color: white;
+    padding: 0.5rem 1.5rem;
+}
+.main{
+    padding: 2rem;
+    margin: 0 auto;
+    width: 50%;
+    height: 60%;
+    background: rgb(90, 88, 88);
+}
